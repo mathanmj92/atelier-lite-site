@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atelier Lite: documents, slides, sheets and PDFs, in one workspace</title>
+<meta name="description" content="Atelier Lite is a Windows desktop suite with a word processor, slides, a spreadsheet and a PDF editor in one window, plus one AI assistant that reads across all of them. Works offline. No account.">
+<meta name="theme-color" content="#f5f6f9">
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('atelier-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Atelier Lite home"><img src="assets/icon.png" alt="" width="30" height="30"><span>Atelier Lite</span></a>
+  <nav aria-label="Primary">
+    <a href="#apps">Apps</a>
+    <a href="#life">Daily life</a>
+    <a href="#assistant">Assistant</a>
+    <a href="#vault">Lock</a>
+    <a href="#privacy">Privacy</a>
+  </nav>
+  <button class="theme" id="theme" type="button" aria-label="Switch to dark mode" title="Light / dark">
+    <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+  </button>
+  <a class="btn btn-sm" href="#download">Download</a>
+</header>
+
+<main id="top">
+
+<!-- 1 · HERO -->
+<section class="hero" id="hero" aria-label="Atelier Lite">
+  <div class="hero-stage">
+    <div class="wash" aria-hidden="true">
+      <i style="--c:#5b6bff;--x:12%;--y:18%;--s:46vmax"></i>
+      <i style="--c:#2dd4bf;--x:82%;--y:30%;--s:38vmax"></i>
+      <i style="--c:#ff6b9d;--x:60%;--y:92%;--s:34vmax"></i>
+      <i style="--c:#ffc455;--x:6%;--y:86%;--s:30vmax"></i>
+    </div>
+
+    <div class="hero-copy">
+      <h1><span class="ln"><span>Documents, slides, sheets</span></span><span class="ln"><span>and PDFs, in one workspace.</span></span></h1>
+      <p class="lede">A word processor, slides, a spreadsheet and a PDF editor in a single window, with one assistant that has read all of them.</p>
+      <div class="cta-row">
+        <a class="btn btn-lg" href="#download" data-dl>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download for Windows
+        </a>
+        <span class="fine">Works offline. No account.</span>
+      </div>
+    </div>
+
+    <!-- sheets: the four apps, drifting in from the edges -->
+    <div class="sheets" aria-hidden="true">
+      <div class="sheet" style="--c:#5b6bff;--sx:-34vw;--sy:-6vh;--r:-9deg;--d:16;--left:3%;--top:-10px"><b>Documents</b><u></u><u></u><u></u><u class="s"></u></div>
+      <div class="sheet" style="--c:#ffc455;--sx:-24vw;--sy:10vh;--r:6deg;--d:26;--z:1.1;--left:16%;--top:40px"><b>Slides</b><em></em></div>
+      <div class="sheet" style="--c:#2dd4bf;--sx:24vw;--sy:-14vh;--r:-4deg;--d:12;--z:.9;--b:1.4px;--left:70%;--top:-30px"><b>Sheets</b><div class="g"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="sheet" style="--c:#ff6b9d;--sx:34vw;--sy:6vh;--r:8deg;--d:18;--left:83%;--top:30px"><b>PDF</b><u></u><u class="hl"></u><u></u></div>
+    </div>
+
+    <!-- window -->
+    <div class="win" aria-hidden="true">
+      <div class="win-bar">
+        <span class="tab" style="--c:#5b6bff">Report.docx</span>
+        <span class="tab on" style="--c:#2dd4bf">Budget.xlsx</span>
+        <span class="tab" style="--c:#ffc455">Pitch.pptx</span>
+        <span class="tab" style="--c:#ff6b9d">Contract.pdf</span>
+        <span class="plus">+</span>
+      </div>
+      <div class="win-body">
+        <div class="win-side">
+          <div class="proj"><img src="assets/icon.png" alt="" width="18" height="18"> Thesis year</div>
+          <i style="--c:#5b6bff"></i><i style="--c:#ffc455"></i><i style="--c:#2dd4bf"></i><i style="--c:#ff6b9d"></i>
+        </div>
+        <div class="win-main">
+          <div class="xl">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span class="a"></span><span></span><span></span><span class="a"></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span class="a"></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="win-ai">
+          <div class="chip">Budget.xlsx</div><div class="chip">Report.docx</div><div class="chip off">Pitch.pptx</div>
+          <div class="bub">Make a one-page summary from these.</div>
+          <div class="file">Summary.docx <b>Create file</b></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- foreground chips, fastest plane -->
+    <div class="fg" aria-hidden="true">
+      <span class="pill" style="--d:44;--left:21%;--top:74px">Alt+A &nbsp;Ask the assistant</span>
+      <span class="pill" style="--d:52;--left:63%;--top:128px">Runs on your PC</span>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · SLOGAN BAND -->
+<section class="band" aria-label="In short">
+  <p class="band-line" data-split>Stop switching.</p>
+  <p class="band-line" data-split>Start making.</p>
+  <p class="band-sub reveal">Four apps, one window, one folder. Open a file and it opens in the right app, beside everything else you are working on.</p>
+</section>
+
+<!-- 3 · DAILY LIFE (horizontal pan) -->
+<section class="pan" id="life" aria-label="Atelier Lite through the day">
+  <div class="pan-stick">
+    <div class="pan-head">
+      <h2>One tool for the whole day.</h2>
+      <p>Scroll through a day of making.</p>
+    </div>
+    <div class="pan-track" id="panTrack">
+      <article class="day" style="--c:#5b6bff">
+        <time>Morning</time>
+        <h3>Reading that turns into the report.</h3>
+        <p>Write in Documents with the PDF of the reading open in the next tab. Ask the assistant to pull the three best quotes from all of it.</p>
+        <ul><li>Documents</li><li>PDF Editor</li></ul>
+      </article>
+      <article class="day" style="--c:#2dd4bf">
+        <time>Midday</time>
+        <h3>The marks sheet, done before lunch.</h3>
+        <p>Keep the marks in a spreadsheet and ask the assistant for the formulas. Undo any change you do not like, then write the summary beside it.</p>
+        <ul><li>Spreadsheet</li><li>Documents</li></ul>
+      </article>
+      <article class="day" style="--c:#ffc455">
+        <time>Afternoon</time>
+        <h3>The pitch, designed rather than typed.</h3>
+        <p>Describe the deck. Atelier Lite picks a colour theme and a layout for every slide: stats, charts, a timeline, a quote. Every slide stays real, editable content.</p>
+        <ul><li>Presentation</li></ul>
+      </article>
+      <article class="day" style="--c:#ff6b9d">
+        <time>Evening</time>
+        <h3>The household numbers, finally in one place.</h3>
+        <p>Budget in a spreadsheet, the lease as a PDF, the plan in a document. Sign and mark up the PDF, and ask the assistant what the lease says about the deposit.</p>
+        <ul><li>Spreadsheet</li><li>PDF Editor</li><li>Documents</li></ul>
+      </article>
+      <article class="day" style="--c:#14151a">
+        <time>Anytime</time>
+        <h3>Come back to exactly where you were.</h3>
+        <p>Every workspace remembers its open tabs and its conversation. Close the window on Friday, open the workspace on Monday, and it all comes back.</p>
+        <ul><li>Workspaces</li><li>.atle files</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · APPS (hover/focus explorer) -->
+<section class="apps" id="apps" aria-labelledby="apps-h">
+  <div class="wrap">
+    <h2 id="apps-h" class="reveal">Four apps. They already know each other.</h2>
+    <p class="sec-sub reveal">Open as many tabs as you like, including several of the same app. Press Alt+1 to Alt+4 to jump straight in.</p>
+    <div class="explorer reveal">
+      <ul class="app-list" id="appList" role="tablist" aria-label="Atelier Lite apps"></ul>
+      <div class="app-view" id="appView" role="tabpanel" aria-live="polite">
+        <div class="mock" id="mock"></div>
+        <div class="app-meta">
+          <h3 id="appName"></h3>
+          <p id="appDesc"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · ASSISTANT (interactive chips) -->
+<section class="assistant" id="assistant" aria-labelledby="ai-h">
+  <div class="wrap two">
+    <div class="ai-copy">
+      <h2 id="ai-h" class="reveal">One assistant that has read the whole desk.</h2>
+      <p class="sec-sub reveal">It sees exactly what you let it see. The chips above the message box list every file it will read. Switch one off and it is out of the conversation.</p>
+      <ul class="prov reveal">
+        <li>Claude Code</li><li>Codex</li><li>Local models</li><li>Anthropic API</li><li>OpenAI-compatible</li><li>Your own command</li>
+      </ul>
+      <p class="note reveal">It asks before it guesses, shows a plan for bigger jobs, and never edits your originals.</p>
+    </div>
+    <div class="chat reveal" id="chat">
+      <div class="chat-top"><span>Reading</span><small id="readCount">4 of 4</small></div>
+      <div class="chips" id="chips">
+        <button class="chip-btn on" style="--c:#5b6bff" aria-pressed="true">Chapter 3.docx</button>
+        <button class="chip-btn on" style="--c:#ff6b9d" aria-pressed="true">Reading list.pdf</button>
+        <button class="chip-btn on" style="--c:#2dd4bf" aria-pressed="true">Marks.xlsx</button>
+        <button class="chip-btn on" style="--c:#ffc455" aria-pressed="true">Lecture 7.pptx</button>
+      </div>
+      <div class="msg me">Write a one-page summary from these.</div>
+      <div class="msg ai" id="aiMsg">
+        <span class="think">Reading 4 files</span>
+        I can write a summary from everything I am reading. Should it be short, detailed, or a mix?
+        <div class="opts"><span>Short</span><span>Detailed</span><span class="sel">A mix</span></div>
+      </div>
+      <div class="fcard"><span><b>Summary.docx</b> Ready to save to Documents</span><button type="button" id="mkFile">Create file</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 · VAULT (the peak) -->
+<section class="vault" id="vault" aria-labelledby="vault-h">
+  <div class="vault-stick">
+    <div class="vault-copy">
+      <span class="soon">Built in</span>
+      <h2 id="vault-h">Workspace lock. A locked room inside your workspace.</h2>
+      <p>For the files that are nobody else's business: contracts, IDs, drafts, the thesis you are not ready to show anyone. Protect a workspace with a password, a PIN or a question of your own, and every file in it is encrypted until you unlock it.</p>
+      <ul class="v-list">
+        <li data-at="0.18">Encrypted until you unlock it</li>
+        <li data-at="0.34">Stays on your own PC, with a recovery key</li>
+        <li data-at="0.5">Locks itself when idle, or when Windows locks</li>
+      </ul>
+      <p class="fine">Optional, per workspace. Keep your recovery key safe: without it and your secret, nobody can open the files.</p>
+    </div>
+
+    <div class="vault-scene" aria-hidden="true">
+      <div class="interior">
+        <div class="vfile" style="--i:0;--c:#ff6b9d"><b>Lease.pdf</b></div>
+        <div class="vfile" style="--i:1;--c:#5b6bff"><b>Draft ch.4.docx</b></div>
+        <div class="vfile" style="--i:2;--c:#2dd4bf"><b>Accounts.xlsx</b></div>
+        <div class="vfile" style="--i:3;--c:#9b6bff"><b>Plan.pptx</b></div>
+      </div>
+      <div class="door">
+        <div class="ring"></div>
+        <div class="bolts"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="dial"><div class="spokes"><i></i><i></i><i></i></div><div class="hub"></div></div>
+        <div class="pins"><i></i><i></i><i></i></div>
+        <div class="needle"></div>
+      </div>
+      <div class="status"><span class="lock">Locked</span><span class="open">Open</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · PRIVACY -->
+<section class="privacy" id="privacy" aria-labelledby="priv-h">
+  <div class="wrap">
+    <h2 id="priv-h" class="reveal">Your work stays where you put it.</h2>
+    <div class="facts">
+      <div class="fact reveal"><strong>Offline</strong><p>Everything works without a connection. Run a local model through Ollama, LM Studio or llama.cpp and even the AI stays on your PC.</p></div>
+      <div class="fact reveal"><strong>No account</strong><p>Install it and start. Nothing to sign up for, nothing that locks you out.</p></div>
+      <div class="fact reveal"><strong>Ordinary files</strong><p>.docx, .pptx, .xlsx and PDF. Copy them, back them up, open them in anything else.</p></div>
+      <div class="fact reveal"><strong>Text leaves only when you ask</strong><p>And only to the provider you chose. API keys are stored encrypted with Windows.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · DOWNLOAD -->
+<section class="get" id="download" aria-labelledby="dl-h">
+  <div class="get-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <img class="get-icon" src="assets/icon.png" alt="" width="84" height="84">
+    <h2 id="dl-h" data-split>Make something today.</h2>
+    <p class="sec-sub">Atelier Lite for Windows. Install it, create a workspace, and bring your documents, slides, sheets and PDFs into one place.</p>
+    <a class="btn btn-lg btn-light" href="https://github.com/mathanmj92/atelier-lite/releases/latest" data-dl>
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Download Atelier Lite 1.0.0
+    </a>
+    <p class="fine">Windows installer, about 160 MB. Free of charge; no account.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot-story">
+    <h2>How Atelier Lite came to be</h2>
+    <p>Atelier Lite did not start from a blank page. We put it together from open-source code written and shared by other people, then shaped it into one workspace with the help of Claude. Every app here stands on that work, and we are grateful for it.</p>
+    <ul class="credits" aria-label="Open-source components">
+      <li>Electron</li><li>docx</li><li>ExcelJS</li><li>PptxGenJS</li><li>marked</li><li>fflate</li><li>PDF.js</li><li>Tesseract.js</li><li>SheetJS</li><li>DOMPurify</li><li>Lucide</li>
+    </ul>
+    <p class="fine">Each component is used under its own licence (MIT, Apache-2.0, MPL-2.0 or ISC); the full notices ship inside the app (Help, Licences). Claude, Codex, Ollama, LM Studio and other product names belong to their owners.</p>
+  </div>
+  <div class="foot-bar">
+    <span class="foot-brand"><img src="assets/icon.png" alt="" width="20" height="20"> Atelier Lite</span>
+    <span>Made with open source and Claude.</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
